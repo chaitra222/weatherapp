@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(wether\ image.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    
+}
+h1{
+    color:rgb(47, 47, 213);
+}
+.app {
+    background: white;
+    padding: 20px;
+    width: 700px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.search input {
+    padding: 10px;
+    width: 70%;
+}
+
+.search button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.weather p {
+    margin: 5px 0;
+    font-weight:bolder;
+}
+
+#error {
+    color: red;
+}
